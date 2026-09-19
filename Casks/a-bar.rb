@@ -1,6 +1,6 @@
 cask "a-bar" do
-  version "1.4.3"
-  sha256 "184447646d6e965801f6dbb443658e06d12d0e7f608675f659f652a8b4e9da40"
+  version "1.5.0"
+  sha256 "c3d291675bc3eec70c1a1d9d0ef7bbc0a8925d91b431892228487c9e355baeef"
 
   url "https://github.com/Jean-Tinland/a-bar/releases/download/v#{version}/a-bar.zip",
       verified: "github.com/Jean-Tinland/a-bar/"
