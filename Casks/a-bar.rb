@@ -18,10 +18,8 @@ cask "a-bar" do
 
   postflight_steps do
     run "/usr/bin/xattr",
-        args:           ["-d", "com.apple.quarantine", "{{appdir}}/a-bar.app"],
-        must_succeed:   false,
-        writable_paths: ["a-bar.app"],
-        writable_base:  :appdir
+        args:         ["-d", "com.apple.quarantine", "{{appdir}}/a-bar.app"],
+        must_succeed: false
   end
 
   uninstall quit: "com.jeantinland.a-bar"
